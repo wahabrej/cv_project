@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(227, 189, 147);
+}
+.container {
+  background-color: rgb(243, 212, 176);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.profile {
+  width: 100px;
+  height: 100px;
+  border: 3px solid white;
+  border-radius: 50%;
+  float: left;
+}
+.title {
+  float: left;
+  padding: 30px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: forestgreen;
+}
+.contact {
+  padding: 30px;
+  margin-left: 700px;
+}
+.contact a {
+  text-decoration: none;
+}
+.contact a:hover {
+  text-decoration: underline;
+}
+.div_clear {
+  clear: both;
+}
+.hr-div {
+  border: solid black 3px;
+  width: 100%;
+  border-bottom: none;
+  margin: 20px auto;
+}
+.left {
+  float: left;
+  width: 30%;
+}
+.right {
+  float: right;
+  width: 70%;
+}
+.div_hr {
+  border: solid black 1px;
+  width: 100%;
+  border-bottom: none;
+  margin: 20px auto;
+}
+.div_h31 {
+  float: left;
+}
+.div_h32 {
+  float: right;
+}
+hr {
+  border: solid black 1px;
+  width: 100%;
+  border-bottom: none;
+  margin: 20px auto;
+}
+.edu_left {
+  float: left;
+  width: 45%;
+}
+.edu_right {
+  float: right;
+  width: 45%;
+}
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+.footer a {
+  color: white;
+  margin: 0 auto;
+  margin: 20px;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer p {
+  color: white;
+  margin: 0 auto;
+  margin: 20px;
+}
